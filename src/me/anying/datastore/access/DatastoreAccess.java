@@ -1,10 +1,11 @@
-package com.anying.datastore.access;
+package me.anying.datastore.access;
 
 import java.io.IOException;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.anying.datastore.reflection.Reflection;
+import me.anying.datastore.reflection.Reflection;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;

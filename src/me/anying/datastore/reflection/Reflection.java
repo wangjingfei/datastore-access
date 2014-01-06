@@ -1,4 +1,4 @@
-package com.anying.datastore.reflection;
+package me.anying.datastore.reflection;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
-import com.google.appengine.repackaged.com.google.common.collect.Maps;
+import com.google.appengine.labs.repackaged.com.google.common.collect.Maps;
 
 public class Reflection {
 	public static <T> Map<String, Object> parseObject(T object)
